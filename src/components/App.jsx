@@ -6,8 +6,8 @@ import Notification from './Notification'
 
 export default class App extends Component {
   state = {
-    good: 0,
     neutral:0,
+    good: 0,
     bad: 0,
   }
   onLeaveFeedback = (opt) => {
